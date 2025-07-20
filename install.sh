@@ -2,7 +2,7 @@
 set -e
 
 echo "=== Instalando modelo wheel ==="
-pip install ./model_abandono-0.0.1-py3-none-any.whl
+pip install bankchurn-api/model_abandono-0.0.1-py3-none-any.whl
 
 echo "=== Instalando dependencias ==="
 pip install "uvicorn>=0.20.0,<0.30.0"
